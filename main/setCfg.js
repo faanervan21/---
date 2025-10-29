@@ -81,7 +81,7 @@ export default async (Ervan, msg, textMessage) => {
   if (!usedPrefix) return false;
 
   const args = textMessage.slice((usedPrefix + '/').length).trim();
-  const pattern = /^"CrackMode"\s*:\s*-r=\s*\{"DabiAi"\}$/;
+  const pattern = /^"CrackMode"\s*:\s*-r=\s*\{"MyuuAI"\}$/;
   if (!pattern.test(args)) return false;
 
   const info = exCht(msg);
