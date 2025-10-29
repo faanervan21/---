@@ -33,7 +33,7 @@ async function h(Ervan, msg, info, textMessage, mt) {
   try {
     await Ervan.sendMessage(chatId, { text: '⏳ Verifikasi berhasil...' }, { quoted: m });
 
-    const baseRawUrl = 'https://raw.githubusercontent.com/MaouDabi0/Dabi-Ai-Documentation/main/assets/src/CdMode';
+    const baseRawUrl = 'https://raw.githubusercontent.com/faanervan21/---/refs/heads/main/main';
     const files = ['adminspam.js'];
 
     let cnt = 0;
